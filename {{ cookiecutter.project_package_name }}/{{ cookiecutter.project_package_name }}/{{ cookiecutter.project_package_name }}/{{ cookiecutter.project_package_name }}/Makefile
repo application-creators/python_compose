@@ -32,5 +32,7 @@ install_test_reqs_in_venv:
 
 run_unit_tests:
 	@echo "Running unit tests..."
-	. ${VIRTUALENV_PATH}/bin/activate && ./scripts/run_unit_tests.sh && deactivate
+	. ${VIRTUALENV_PATH}/bin/activate && \
+	python -m unittest discover -s . -p '*_test.py' && \
+	cd ..
 	@echo "Done!"
