@@ -95,9 +95,11 @@ provides instructions to build the image
    [requirements.frozen](/%7B%7B%20cookiecutter.project_package_name%20%7D%7D/%7B%7B%20cookiecutter.project_package_name%20%7D%7D/requirements.frozen)
    and 
    [requirements.test.frozen](/%7B%7B%20cookiecutter.project_package_name%20%7D%7D/%7B%7B%20cookiecutter.project_package_name%20%7D%7D/requirements.test.frozen)
+   (refer to [requirements](#requirements))
  * [run.py](/%7B%7B%20cookiecutter.project_package_name%20%7D%7D/%7B%7B%20cookiecutter.project_package_name%20%7D%7D/%7B%7B%20cookiecutter.project_package_name%20%7D%7D/run.py)
-   is the entry point to the service. 
- * Put the unit tests in the [tests](/%7B%7B%20cookiecutter.project_package_name%20%7D%7D/%7B%7B%20cookiecutter.project_package_name%20%7D%7D/%7B%7B%20cookiecutter.project_package_name%20%7D%7D/tests) package
+   is the entry point to the service
+ * Put the unit tests in the [tests](/%7B%7B%20cookiecutter.project_package_name%20%7D%7D/%7B%7B%20cookiecutter.project_package_name%20%7D%7D/%7B%7B%20cookiecutter.project_package_name%20%7D%7D/tests) 
+   package (refer to [unit tests](#unit-tests))
 
 
 ## Docker compose
