@@ -41,7 +41,7 @@ docker_build:
 
 
 docker_run:
-	docker run -t {{ cookiecutter.project_package_name }}
+	docker run -it {{ cookiecutter.project_package_name }}
 
 
 docker_build_and_run: docker_build docker_run
