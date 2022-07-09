@@ -1,6 +1,6 @@
 version: "3"
 services:
-  api:
+  {{ cookiecutter.project_package_name }}:
     build: ./{{ cookiecutter.project_package_name }}
     volumes:
       - ./{{ cookiecutter.project_package_name }}/{{ cookiecutter.project_package_name }}:/code
